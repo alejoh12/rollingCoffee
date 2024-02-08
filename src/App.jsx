@@ -1,11 +1,17 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from "./components/common/Footer"
+import Menu from './components/common/Menu'
+import Inicio from './components/pages/Inicio'
 
 function App() {
  
 
   return (
     <>
-     <h1>prueba de titulo</h1>
+     <Menu></Menu>
+     <Inicio></Inicio>
+     <Footer></Footer>
     </>
   )
 }
