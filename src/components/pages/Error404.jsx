@@ -1,7 +1,8 @@
 const Error404 = () => {
     return (
         <div>
-            <p>aqui va la pagina de error 404</p>
+            <a href="../app.jsx">Volver a Inicio</a>
+            <img src="../assets/error404.png" alt="imagen de error 404" />
         </div>
     );
 };
